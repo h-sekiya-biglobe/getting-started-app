@@ -1,7 +1,6 @@
 name: Run jest
 
 on:
-  workflow_dispatczh:
   push:
 
 jobs:
