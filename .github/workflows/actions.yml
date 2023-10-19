@@ -1,6 +1,7 @@
 name: Run jest
 
 on:
+  workflow_dispatczh:
   push:
 
 jobs:
@@ -17,7 +18,7 @@ jobs:
           node-version: '18'
 
       - name: Install jest
-        run: npm install --save-dev jest
+        run: yarn install
 
       - name: Run test
         run: npm test
